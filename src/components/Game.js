@@ -2,6 +2,7 @@ import React from 'react';
 import Board from "./Board"
 import '../css/Game.css';
 
+
 class Game extends React.Component {
   constructor(props) {
     super(props);
@@ -13,6 +14,7 @@ class Game extends React.Component {
       xIsNext: true,
     };
   }
+  
 
   handleClick(i) {
     const history = this.state.history.slice(0, this.state.stepNumber + 1);
@@ -55,11 +57,14 @@ class Game extends React.Component {
     });
 
     let status;
+    let playing = '-Playing Game-';
     if (winner) {
       status = 'Winner: ' + winner;
+      playing = '-Game End-'
     } else {
       status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
     }
+
 
     return (
       <div className="game">
@@ -67,20 +72,21 @@ class Game extends React.Component {
           <h2>{status}</h2>
          <Board
             squares={current.squares}
+            winner={winner}
             onClick={(i) => this.handleClick(i)}
           />
           <hr />
-          <button>RESET</button>
+          <button onClick={() => this.jumpTo(0)}>RESET</button>
         </div>
         <div className="game-info">
+          <h3>Game status</h3>
           <ol>{moves}</ol>
+          <h4>{playing}</h4>
         </div>
       </div>
     );
   }
 }
-
-// const [isEnd, setIsEnd] = useState(false)
 
 function calculateWinner(squares) {
   const lines = [
@@ -97,6 +103,7 @@ function calculateWinner(squares) {
     const [a, b, c] = lines[i];
     if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
       alert("게임이 끝났습니다 !")
+      
       return squares[a];
     }
   }

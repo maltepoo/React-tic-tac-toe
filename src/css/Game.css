@@ -27,3 +27,9 @@
     margin-top: 10%;
     margin-right: 10%;
 }
+
+.winner {
+    color: white;
+    background: black;
+    border: 0;
+  }
