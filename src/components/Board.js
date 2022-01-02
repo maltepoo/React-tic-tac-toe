@@ -8,6 +8,8 @@ class Board extends React.Component {
       <Square
         value={this.props.squares[i]}
         winner={this.props.winner}
+        location={i}
+        targetSquare={this.props.target}
         onClick={() => this.props.onClick(i)}
       />
     );
