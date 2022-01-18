@@ -1,6 +1,6 @@
 # React 공식문서 Tic-Tac-Toe
 
-![tictactoe-playing](README.assets/tictactoe-playing.gif)
+![tictactoe-playing](tictactoe_origin/README.assets/tictactoe-playing.gif)
 
 🙂 **[공식문서 기본 기능]**
 
