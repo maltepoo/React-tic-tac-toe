@@ -1,0 +1,19 @@
+.notice {
+    width: 1856px;
+    height: 200px;
+    margin: 0 auto;
+}
+.notice ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.li_ad {
+    background-color: #F4E8D2;
+    list-style: none;
+    cursor: pointer;
+}
+.li_ad img {
+    display: block;
+    margin: 0 auto;
+}

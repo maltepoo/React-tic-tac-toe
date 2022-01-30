@@ -1,0 +1,52 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+img {
+    vertical-align: middle;
+}
+li {
+    list-style: none;
+}
+.on {
+    font-weight: 700;
+    color: #000;
+}
+
+.App {
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border: 1px solid black;
+    /* float: left; */
+}
+.inner {
+    display: block;
+    position: relative;
+    width: 1180px;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+}
+p {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+a.btn {
+    position: relative;
+    box-sizing: border-box;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 5px 36px;
+    border: 1px solid #ababab;
+    color: #656565;
+    top: 80px;
+}

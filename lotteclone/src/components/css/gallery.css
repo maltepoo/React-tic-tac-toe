@@ -1,0 +1,72 @@
+.gallery {
+    display: block;
+    top: 0;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 431px;
+    margin: 235px auto 0 auto;
+    padding: 0;
+}
+
+.inner_gallery {
+    display: block;
+    position: relative;
+    width: 1180px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 255, 0.26);
+}
+
+.left_gallery {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+.right_gallery {
+    float: right;
+    width: 50%;
+    min-height: 625px;
+    height: auto;
+    padding-left: 194px;
+    padding-top: 0;
+}
+.gallery_title {
+    position: absolute;
+    width: 387px;
+    height: 123px;
+    top: 0;
+    background-image: url("https://minfo.lotteshopping.com/mobweb/resources/layout/images/lotte/main/move_tit_gallery.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: -11;
+}
+.gallery p {
+    margin: 0;
+}
+.gallery .txt01 {
+    position: relative;
+    font-size: 20px;
+    line-height: 20px;
+    color: #9c9c9c;
+    padding-top: 145px;
+    font-weight: 300;
+}
+.gallery .txt02 {
+    position: relative;
+    font-size: 34px;
+    line-height: 40px;
+    padding-top: 10px;
+    font-weight: 500;
+    color: #252525;
+    font-weight: 500;
+}
+.gallery .txt03 {
+    position: relative;
+    font-size: 18px;
+    line-height: 26px;
+    padding-top: 16px;
+    color: #9c9c9c;
+    letter-spacing: -1.2px;
+    font-weight: 300;
+}

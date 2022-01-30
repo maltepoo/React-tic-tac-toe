@@ -1,0 +1,62 @@
+.main_consult{
+    top: 0;
+    position: relative;
+    width: 100%;
+    height: 522px;
+    margin: 235px auto 0 auto;
+    /* background-color: rgba(255, 166, 0, 0.287); */
+}
+.main_consult .aos_wrap{
+    height: 80px;
+}
+.main_consult .aos_wrap .txt02 {
+    position: relative;
+    font-size: 34px;
+    line-height: 40px;
+    padding-top: 0;
+    font-weight: 500;
+    color: #252525;
+}
+.main_consult .aos_wrap .txt03 {
+    position: relative;
+    font-size: 18px;
+    line-height: 18px;
+    padding-top: 18px;
+    padding-left: 3px;
+    color: #252525;
+    letter-spacing: -1.2px;
+    font-weight: 300;
+}
+
+.consult_img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 283px;
+    margin-top: 34px;
+    background: url("https://minfo.lotteshopping.com/mobweb/resources/layout/images/lotte/main/main_consult.jpg") top center no-repeat;
+    background-size: 100% auto;
+}
+.consult_img .btn {
+    position: absolute;
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 124px;
+    height: 30px;
+    top: 212px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 13px;
+    border: 1px solid #c1bdba;
+    color: #959595;
+    background: #efebe8;
+}
+.consult_img .btn01 {
+    left: 120px;
+}
+.consult_img .btn02 {
+    left: 520px;
+}
+.consult_img .btn03 {
+    left: 906px;
+}

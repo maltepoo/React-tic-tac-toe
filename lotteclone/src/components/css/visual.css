@@ -1,0 +1,44 @@
+.main {
+    width: 100%;
+    border: 1px solid red;
+}
+.main::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.main_visual {
+    width: 1180px;
+    height: 850px;
+    border: 1px solid chartreuse;
+    margin: 0 auto;
+}
+.visual {
+    height: 665px;
+    background: url('../../../public/img/20220117133753673_1.jpg') no-repeat 50% 50%;
+}
+
+.main .inner {
+    width: 1180px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -156px;
+}
+.main button {
+    position: absolute;
+    top: 183px;
+    background-color: #fff;
+    border: 1px solid #000;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 11px 30px;
+}
+.main .arr {
+    display: inline-block;
+    width: 18px;
+    height: 19px;
+    margin-left: 20px;
+    background: url('https://minfo.lotteshopping.com/mobweb/resources/layout/images/common/btn_arrow.png') no-repeat 50% 50%;
+    vertical-align: top;
+}

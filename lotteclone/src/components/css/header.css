@@ -1,0 +1,93 @@
+.header {
+    width: 1180px;
+    border: 1px solid blue;
+    margin: 0 auto;
+    color: #626161;
+}
+.header::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.box_top {
+    width: 100%;
+    float: right;
+    height: 33px;
+    background-color: cadetblue;
+}
+.box_top>ul>li:first-child::before {
+    content: "";
+}
+.box_top>ul>li::before {
+    content: "|";
+}
+.box_top>ul>li {
+    font-size: 12px;
+    margin: 0;
+    padding: 0 3px 0 7px;
+    float: left;
+}
+
+.service {
+    display: none;
+    position: absolute;
+    top: 31px;
+    max-width: 145px;
+    padding: 17px 15px;
+    background-color: #000;
+}
+.service li:first-child {
+    margin-top: 0;
+}
+.service li {
+    width: 115px;
+    margin-top: 12px;
+    font-size: 14px;
+}
+.service li a {
+    color: #fff;
+    line-height: 18px;
+    opacity: .7;
+}
+
+.gnb_wrapper {
+    background-color: cornflowerblue;
+    width: 100%;
+    float: left;
+    margin-top: 34px;
+}
+.gnb_wrapper h1 {
+    margin: 0;
+    float: left;
+}
+.gnb_wrapper li {
+    float: left;
+    margin-left: 34px;
+    line-height: 23px;
+
+}
+.gnb_wrapper li:first-child {
+    margin-left: 54px;
+}
+.gnb_wrapper .floor {
+    float: right;
+    font-size: 14px;
+}
+.gnb_wrapper .floor img {
+    width: 20%;
+    opacity: .8;
+    margin-right: 10px;
+}
+
+.etc_list {
+    background-color: crimson;
+    float: left;
+}
+.btn_login {
+    display: none;
+}
+.btn_search {
+    background: url('https://minfo.lotteshopping.com/mobweb/resources/layout/images/common/gnb_search.png') no-repeat 50% 50%;
+    background-size: 100%;
+}

@@ -1,0 +1,118 @@
+#footer {
+    display: block;
+    position: relative;
+    width: 1180px;
+    margin: 50px auto 0;
+    padding: 0 0 65px;
+    background-color: #f4f4f4;
+    color: #fff;
+    z-index: 20;
+}
+
+.servCenter_box {
+    background: #9a9a9a;
+}
+.servCenter_box .inner {
+    padding: 0 0;
+    height: 43px;
+    box-sizing: border-box;
+}
+.servCenter_box .lottes {
+    float: left;
+    width: 300px;
+    padding: 14px 30px 14px 38px;
+    box-sizing: border-box;
+}
+
+.servCenter_list {
+    float: left;
+    width: 635px;
+}
+.servCenter_list > li {
+    position: relative;
+    float: left;
+}
+.servCenter_list > li a {
+    display: inline-block;
+    padding: 14px 20px 14px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+.servCenter_list > li:first-child a {
+    padding: 14px 20px 14px 0px;
+}
+
+.btn_top {
+    float: right;
+    width: 110px;
+    height: 43px;
+    text-align: center;
+}
+.btn_top a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 14px 0 14px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    background: #7b7b7b;
+}
+.btn_top .arr {
+    display: inline-block;
+    width: 10px;
+    height: 14px;
+    margin-left: 10px;
+    background: url("https://minfo.lotteshopping.com/mobweb/resources/layout/images/common/footer_familysite_arrow_open.png") no-repeat 0 50%;
+    vertical-align: top;
+}
+
+.footer .inner {
+    padding: 42px 38px 70px;
+}
+.inner .family_wrap_v2 {
+    position: relative;
+    width: 268px;
+    float: left;
+    margin-top: 0;
+    vertical-align: top;
+    z-index: 5;
+}
+.inner .family_wrap_v2 dl {
+    display: block;
+    position: relative;
+    float: left;
+}
+.inner .family_wrap_v2 dl dt {
+    display: block;
+    background: #3d3c3a;
+}
+.inner .family_wrap_v2 dl dt button {
+    display: block;
+    padding: 6px 38px 6px 24px;
+    border: 1px solid #3d3c3a;
+    position: relative;
+    background: url("https://minfo.lotteshopping.com/mobweb/resources/layout/images/common/footer_familysite_arrow_open.png") no-repeat 136px 50%;
+    background-size: 6%;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+.inner .family_wrap_v2 dl dd {
+    display: none;
+    position: absolute;
+    margin-top: 29px;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    width: 100%;
+    height: 162px;
+    border: 1px solid #9a9a9a;
+    background-color: #fff;
+    z-index: 10;
+}
+.inner .family_wrap_v2 dl dd ul {
+    display: block;
+    padding: 10px;
+}

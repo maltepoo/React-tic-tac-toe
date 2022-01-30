@@ -1,0 +1,76 @@
+.onlylotte {
+    display: block;
+    position: relative;
+    padding-top: 234px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    /* background-color: rgba(153, 50, 204, 0.26); */
+}
+.only_title {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 34px;
+    background: url("https://minfo.lotteshopping.com/mobweb/resources/layout/images/lotte/main/move_tit_brand.png") 0% 0% no-repeat;
+}
+.onlylotte .txt02 {
+    position: relative;
+    font-size: 34px;
+    line-height: 40px;
+    padding-top: 12px;
+    font-weight: 500;
+    color: #252525;
+    font-weight: 500;
+}
+.onlylotte .txt03 {
+    position: relative;
+    font-size: 18px;
+    line-height: 18px;
+    padding-top: 22px;
+    padding-left: 3px;
+    color: #9c9c9c;
+    letter-spacing: -1.2px;
+    font-weight: 300;
+}
+.onlylotte a.btn {
+    position: relative;
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 124px;
+    height: 30px;
+    left: 89.4%;
+    text-align: center;
+    padding: 5px 36px;
+    font-size: 13px;
+    border: 1px solid #ababab;
+    color: #000;
+    top: 10px;
+}
+
+.onlylotte .list_wrap {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 38px;
+}
+.onlylotte .list_wrap li {
+    position: relative;
+    display: inline-block;
+    width: 273px;
+    height: 384px;
+}
+.onlylotte .list_wrap li:nth-child(-n+3) {
+    margin-right: 25px;
+}
+.onlylotte .list_wrap li img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.onlylotte .brand_title {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 20px 0 10px 0;
+}

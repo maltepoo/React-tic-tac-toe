@@ -1,0 +1,75 @@
+.magazine {
+    display: block;
+    position: relative;
+    padding-top: 234px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.maga_title {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 34px;
+    background: url("https://minfo.lotteshopping.com/mobweb/resources/layout/images/lotte/main/move_tit_maga.png") 0% 0% no-repeat;
+}
+.magazine .txt02 {
+    position: relative;
+    font-size: 34px;
+    line-height: 40px;
+    padding-top: 12px;
+    font-weight: 500;
+    color: #252525;
+    font-weight: 500;
+}
+.magazine .txt03 {
+    position: relative;
+    font-size: 18px;
+    line-height: 18px;
+    padding-top: 22px;
+    padding-left: 3px;
+    color: #9c9c9c;
+    letter-spacing: -1.2px;
+    font-weight: 300;
+}
+
+.magazine .list_wrap {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 38px;
+}
+.magazine .list_wrap li {
+    position: relative;
+    display: inline-block;
+    width: 289px;
+    height: 464px;
+}
+.magazine .list_wrap li:nth-child(-n+2){
+    margin-right: 153px;
+}
+.magazine .list_wrap li img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.maga_subtitle {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 20px 0 10px 0;
+}
+.magazine a.btn {
+    position: relative;
+    box-sizing: border-box;
+    text-decoration: none;
+    width: 124px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 36px;
+    font-size: 13px;
+    border: 1px solid #ababab;
+    color: #000;
+    top: 10px;
+}
