@@ -1,0 +1,38 @@
+body {
+  background-color: #282c34;
+  margin: 0 auto;
+  text-align: center;
+  /* color: #61dbfb; */
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, .1);
+  padding: 6px 20px 6px 20px;
+  border-radius: 20px;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin: 20px 10px 20px 10px;
+}
+button {
+  border: 0;
+  background-color: transparent;
+  color: white;
+}
+input {
+  background-color: transparent;
+  color: white;
+  border: 0;
+  border-bottom: 2px solid white;
+  transition: 0.5s;
+  margin-top: 14px;
+}
+input:focus {
+  outline: none;
+  color: #61dbfb;
+  border-bottom: 2px solid #61dbfb;
+}
