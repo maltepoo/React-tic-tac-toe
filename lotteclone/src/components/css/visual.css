@@ -1,18 +1,21 @@
 .main {
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .main::after {
     content: "";
     clear: both;
     display: block;
+    margin: 0;
+    padding: 0;
 }
 
 .main_visual {
     width: 1180px;
     height: 850px;
-    border: 1px solid chartreuse;
+    /* border: 1px solid chartreuse; */
     margin: 0 auto;
+    padding: 0;
 }
 .visual {
     height: 665px;

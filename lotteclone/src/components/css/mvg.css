@@ -4,7 +4,7 @@
     width: 100%;
     height: 570px;
     margin: 235px auto 0 auto;
-    background-color: rgba(0, 191, 255, 0.301);
+    /* background-color: rgba(0, 191, 255, 0.301); */
 }
 .main_mvg .inner {
     position: relative;

@@ -51,7 +51,7 @@
     width: 100%;
     height: auto;
     padding: 72px 0 0 0;
-    background-color: rgba(34, 139, 34, 0.192);
+    /* background-color: rgba(34, 139, 34, 0.192); */
 }
 .btn_list li {
     position: relative;

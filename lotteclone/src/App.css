@@ -7,6 +7,11 @@
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
 img {
     vertical-align: middle;
 }
@@ -23,8 +28,26 @@ li {
     top: 0;
     left: 50%;
     transform: translate(-50%, 0);
-    border: 1px solid black;
+    /* background-color: rgba(0, 0, 0, 0.13); */
     /* float: left; */
+}
+.on {
+    font-weight: 700;
+    color: #000000;
+}
+.hide {
+    display: none;
+}
+.on::after {
+    content: '';
+    display: block;
+    clear: both;
+    position: absolute;
+    left: -6%;
+    top: 25px;
+    width: 112%;
+    height: 1px;
+    background-color: #000;
 }
 .inner {
     display: block;

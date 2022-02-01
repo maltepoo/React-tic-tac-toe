@@ -1,12 +1,15 @@
 .notice {
-    width: 1856px;
+    display: block;
+    position: relative;
     height: 200px;
-    margin: 0 auto;
+    overflow: hidden;
+    z-index: 10;
 }
 .notice ul {
-    margin: 0;
-    padding: 0;
+    width: auto;
     position: relative;
+    transition-duration: 0s;
+    /* transform: translate3d(0px, -200px, 0px); */
 }
 .li_ad {
     background-color: #F4E8D2;
@@ -14,6 +17,7 @@
     cursor: pointer;
 }
 .li_ad img {
+    min-width: 1180px;
     display: block;
     margin: 0 auto;
 }
