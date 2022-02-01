@@ -22,6 +22,9 @@ li {
     font-weight: 700;
     color: #000;
 }
+.onTop {
+    top: 0px !important;
+}
 
 .App {
     position: relative;
@@ -31,12 +34,13 @@ li {
     /* background-color: rgba(0, 0, 0, 0.13); */
     /* float: left; */
 }
-.on {
-    font-weight: 700;
-    color: #000000;
+
+.show {
+    display: block !important;
 }
 .hide {
-    display: none;
+    display: none !important;
+    height: 0;
 }
 .on::after {
     content: '';

@@ -1,9 +1,10 @@
 import React from 'react';
 
-function Nav() {
-    const displayNav = 420;
+function Nav(props) {
+    let scrollActive = props.scrollActive
     return (
-        <div className='depth2_wrap'>
+        <div className={scrollActive ? "depth2_wrap onTop" : "depth2_wrap"}>
+        {/* <div className='depth2_wrap'> */}
             <div className='depth2_wrap_in'>
                 <div className='link_depth2_logo'>
                     <a></a>
